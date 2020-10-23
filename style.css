@@ -48,6 +48,33 @@ body{
     display: inline;
 }
 
+#aboutMe{
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to left, #243B55, #141E30); 
+    padding-left: 50px;
+    /* padding-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondary-text{
+    color: white;
+  }
+
+#aboutMe h1{
+    color: white;
+}
+
+#aboutMe p{
+    color: white;
+    margin-bottom: 0;
+}
+
+
 /* Image background */
 
 #maxheight{
@@ -79,13 +106,9 @@ html{
 
 .eInfo,
 #major {
-    font-size: 12px;
+    font-size: 20px;
 }
 
-.eInfo,
-#major {
-    font-size: 10px;
-}
 
 .footer2 {
     color: #777;
@@ -94,3 +117,37 @@ html{
     padding: 5px
 }
 
+.card.mb-3{
+    border: none;
+}
+
+h5{
+    padding-top: 1.25rem;
+}
+
+.op-card{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.op-card2{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.op-card3{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.op-card-small{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
