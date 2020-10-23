@@ -5,6 +5,10 @@ header,
     height: 100%;
 }
 
+h2{
+    color: white;
+}
+
 #navbar {
     background-color: #272e36;
     
@@ -18,6 +22,29 @@ header,
     background-color: #272e36; 
 }
 
+
+iframe {
+    width: 750px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+    border-style:none;
+}
+
+
+video {
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-style:none;
+}
+
+.test{
+    display: block;
+    width: -webkit-fill-available;
+}
 #collapseicon {
     color: white;
 }
