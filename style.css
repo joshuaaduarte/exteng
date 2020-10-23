@@ -20,6 +20,7 @@ header,
 body{
     background-image:  url(images/grayback.jpg);
     background-size: cover;
+    overscroll-behavior: none;
 }
 
 /* linear-gradient(180deg, #14101f 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), */
@@ -99,8 +100,16 @@ parallax-home{
 
 }
 
+.test{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
 html{
-
+    overscroll-behavior: none;
     scroll-behavior: smooth;
 }
 
@@ -120,6 +129,10 @@ html{
 .card.mb-3{
     border: none;
 }
+.text-white {
+    color: var(--white);
+    margin-bottom: 0px !important;
+  }
 
 h5{
     padding-top: 1.25rem;
@@ -129,6 +142,7 @@ h5{
     background: rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
@@ -143,6 +157,13 @@ h5{
     background: rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin-top: 20px;
+    border-radius: 10px;
+}
+.op-card4{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
     border-radius: 10px;
 }
 .op-card-small{
