@@ -10,6 +10,14 @@ header,
     
 }
 
+#navbar2 {
+    background-color: #272e36; 
+}
+
+#navbar3 {
+    background-color: #272e36; 
+}
+
 #collapseicon {
     color: white;
 }
@@ -90,6 +98,12 @@ body{
     background-position: center;
 }
 
+.brand-logo {
+    padding: 16px !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
 parallax-home{
     background-image: url(images/city.jpg);
     height: 100%;
@@ -135,7 +149,8 @@ html{
   }
 
 h5{
-    padding-top: 1.25rem;
+    padding-top: 0rem;
+    padding-right: .5rem;
 }
 
 .op-card{
@@ -144,6 +159,10 @@ h5{
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 10px;
+}
+
+.card-body{
+    padding: .5rem;
 }
 
 .card-horizontal {
