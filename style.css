@@ -41,10 +41,7 @@ video {
     border-style:none;
 }
 
-.test{
-    display: block;
-    width: -webkit-fill-available;
-}
+
 #collapseicon {
     color: white;
 }
